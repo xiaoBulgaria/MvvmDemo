@@ -20,7 +20,8 @@
         <activity android:name=".MtvActivity" />
         <activity android:name=".MbtnActivity" />
         <activity android:name=".MbackActivity" />
-        <activity android:name=".MimageActivity"></activity>
+        <activity android:name=".MimageActivity" />
+        <activity android:name=".BaseActivity"></activity>
     </application>
 
 </manifest>

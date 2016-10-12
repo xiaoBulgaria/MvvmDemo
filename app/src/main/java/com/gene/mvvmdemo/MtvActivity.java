@@ -6,7 +6,7 @@ import android.os.Bundle;
 
 import com.gene.mvvmdemo.utils.CensusUtils;
 
-public class MtvActivity extends Activity {
+public class MtvActivity extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
