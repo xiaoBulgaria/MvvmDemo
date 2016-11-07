@@ -5,6 +5,7 @@ import android.databinding.DataBindingUtil;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.Toast;
 
@@ -27,6 +28,8 @@ public class MimageActivity extends BaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        //限制app截屏
+        getWindow().addFlags(WindowManager.LayoutParams.FLAG_SECURE);
 
         binding = DataBindingUtil.setContentView(this, R.layout.activity_mimage);
         binding.setActivity(this);
