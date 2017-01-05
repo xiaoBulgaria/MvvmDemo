@@ -3,7 +3,6 @@ package com.gene.mvvmdemo;
 import android.app.Activity;
 import android.databinding.DataBindingUtil;
 import android.os.Bundle;
-
 import com.gene.mvvmdemo.swipe.SwipeBackActivity;
 import com.gene.mvvmdemo.utils.CensusUtils;
 
