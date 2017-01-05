@@ -2,9 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
     <data>
-
         <import type="com.gene.mvvmdemo.MimageActivity"/>
 
         <variable
@@ -27,8 +25,8 @@
     tools:context="com.gene.mvvmdemo.MimageActivity">
 
     <com.liangfeizc.avatarview.AvatarView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
         app:error="@{@drawable/error}"
         app:imageUrl="@{imageUrl}"
         app:onClickListener="@{activity.avatarClickListener}"/>
