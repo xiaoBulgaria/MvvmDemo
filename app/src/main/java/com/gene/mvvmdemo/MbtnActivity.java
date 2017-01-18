@@ -45,8 +45,6 @@ public class MbtnActivity extends BaseActivity implements OnLayoutChangeListener
         System.out.println("真正结束");
     }
 
-
-
     private void searchResultShow() {
 
         TextView textView = new TextView(MbtnActivity.this);
