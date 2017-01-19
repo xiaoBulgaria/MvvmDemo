@@ -34,6 +34,9 @@ public class MainActivity extends Activity {
     public void openImageView(View view){
         this.startActivity(new Intent(this,MimageActivity.class));
     }
+    public void openListview(View view){
+        this.startActivity(new Intent(this,MlistviewActivity.class));
+    }
 
 }
 

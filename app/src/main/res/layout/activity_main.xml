@@ -44,6 +44,12 @@
                 android:onClick="openImageView"
                 android:text="imageview" />
 
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:onClick="openListview"
+                android:text="Listview" />
+
 
             <TextView
                 android:id="@+id/tv_test"
