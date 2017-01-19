@@ -74,15 +74,10 @@ public class MlistviewActivity extends AppCompatActivity {
         //判断是否大于两天
         if ((curDate.getTime() - date1) >= 0 && (curDate.getTime() - date2) < 0) {
             sta = true;
-            Log.e("TAG", "curDate-------->" + curDate.getTime() + "------>" + (curDate.getTime() - date2));
-        } else {
+         } else {
             sta = false;
-            Log.e("TAG", "0000curDate-------->" + curDate.getTime() + "------>" + (curDate.getTime() - date2));
         }
-
-
-        Log.e("TAG", "sta-------->" + curDate.getTime() + "------>" + sta);
-        return sta;
+      return sta;
     }
 
     @Override
