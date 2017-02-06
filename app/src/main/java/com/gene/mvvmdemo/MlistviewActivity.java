@@ -35,7 +35,7 @@ public class MlistviewActivity extends AppCompatActivity {
         setContentView(R.layout.activity_mlistview);
         listView = (AutoScrollListView) findViewById(R.id.lv);
         listView.setAdapter(new ArrayAdapter<String>(this, android.R.layout.simple_expandable_list_item_1, getData()));
-        TimeCompare();
+        timeCompare();
         listView.smoothScrollToPosition(5);
         // listView.setSelection(5);
 
@@ -61,7 +61,7 @@ public class MlistviewActivity extends AppCompatActivity {
     }
 
 
-    private boolean TimeCompare() {
+    private boolean timeCompare() {
         //格式化时间
         boolean sta = false;
         SimpleDateFormat CurrentTime = new SimpleDateFormat("yyyy/MM/dd HH:mm:ss");
@@ -70,14 +70,7 @@ public class MlistviewActivity extends AppCompatActivity {
         long date1 = 1483405200000L;           //"2017-01-27 19:00:00";
         long date2 = 1486083600000L;    //"2017-02-03 09:00:00";
 
-
-        //判断是否大于两天
-        if ((curDate.getTime() - date1) >= 0 && (curDate.getTime() - date2) < 0) {
-            sta = true;
-         } else {
-            sta = false;
-        }
-      return sta;
+      return (curDate.getTime() - date1) >= 0 && (curDate.getTime() - date2) < 0;
     }
 
     @Override
