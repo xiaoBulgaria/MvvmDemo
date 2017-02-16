@@ -17,6 +17,10 @@ public class MyClass {
     static Collection<Rank> ranks = Arrays.asList(Rank.values());
 
     public static void main(String[] args) {
+        sortPoker();
+    }
+
+    private static void sortPoker() {
         for(Suit suit : suits){
             for(Rank rank : ranks){
                 System.out.print(suit + "---" + rank + "    ");
