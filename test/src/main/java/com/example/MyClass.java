@@ -23,8 +23,9 @@ public class MyClass {
     private static void sortPoker() {
         for(Suit suit : suits){
             for(Rank rank : ranks){
-                System.out.print(suit + "---" + rank + "    ");
+                    System.out.print(suit + "---" + rank + "    ");
             }
         }
     }
+
 }
