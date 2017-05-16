@@ -1,4 +1,6 @@
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app = "http://schemas.android.com/apk/res-auto">
 
     <data class="com.gene.mvvmdemo.CensusBinding">
         <variable
@@ -29,6 +31,12 @@
             android:text="@{censusutils.LastName}"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <com.gene.mvvmdemo.views.ButtonFeatureTagSelect
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:featuretag="杭州韵辰">
+        </com.gene.mvvmdemo.views.ButtonFeatureTagSelect>
     </LinearLayout>
 </layout>
 

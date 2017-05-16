@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-
-
     <!--swipe-->
     <declare-styleable name="SwipeBackLayout">
         <attr name="edge_size" format="dimension"/>
@@ -18,4 +16,9 @@
     </declare-styleable>
 
     <attr name="SwipeBackLayoutStyle" format="reference"/>
+
+    <declare-styleable name="ButtonFeatureTagSelect">
+        <attr name="featuretag" format="reference|string"/>
+        <attr name="deleteimage" format="reference"/>
+    </declare-styleable>
 </resources>
