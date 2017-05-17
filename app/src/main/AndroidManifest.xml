@@ -22,11 +22,16 @@
         <activity android:name=".MbackActivity" />
         <activity android:name=".MimageActivity" />
         <activity android:name=".BaseActivity" />
-        <activity android:name=".MlistviewActivity"></activity><!-- ATTENTION: This was auto-generated to add Google Play services to your project for
-     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information. -->
+        <activity android:name=".MlistviewActivity" />
+        <!--
+ ATTENTION: This was auto-generated to add Google Play services to your project for
+     App Indexing.  See https://g.co/AppIndexing/AndroidStudio for more information.
+        -->
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
+
+        <activity android:name=".FeatureTagActivity"></activity>
     </application>
 
 </manifest>

@@ -37,6 +37,7 @@
             android:layout_height="wrap_content"
             app:featuretag="杭州韵辰">
         </com.gene.mvvmdemo.views.ButtonFeatureTagSelect>
+
     </LinearLayout>
 </layout>
 

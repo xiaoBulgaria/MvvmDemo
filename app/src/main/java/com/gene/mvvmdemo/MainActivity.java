@@ -23,10 +23,11 @@ public class MainActivity extends Activity {
     }
 
     public void openTv(View view){
-        this.startActivity(new Intent(this,MtvActivity.class));
+       this.startActivity(new Intent(this,MtvActivity.class));
     }
     public void openBtn(View view){
-        this.startActivity( new Intent(this,MbtnActivity.class));
+        FeatureTagActivity.enter(this);
+        //this.startActivity( new Intent(this,MbtnActivity.class));
     }
     public void openSetBackground(View view){
         this.startActivity(new Intent(this,MbackActivity.class));

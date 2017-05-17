@@ -15,7 +15,6 @@ public class MtvActivity extends SwipeBackActivity {
         super.onCreate(savedInstanceState);
         mSwipeBackLayout = getSwipeBackLayout();
 
-
         com.gene.mvvmdemo.CensusBinding binding = DataBindingUtil.setContentView(this,
                 R.layout.activity_mtv);
 
@@ -23,5 +22,7 @@ public class MtvActivity extends SwipeBackActivity {
         binding.setCensusutils(censusUtils);
         mSwipeBackLayout.setFitsSystemWindows(true);
         mSwipeBackLayout.setEdgeTrackingEnabled(com.gene.mvvmdemo.SwipeBackLayout.EDGE_LEFT);
+
+
     }
 }
