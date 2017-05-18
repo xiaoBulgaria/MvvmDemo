@@ -59,8 +59,7 @@ public class FeatureTagActivity extends BaseActivity implements View.OnClickList
             @Override
             public void onDeletePressed(View view) {
                 gridLayout.removeView(bfts);
-                Log.e("TAG","-------------------"+bfts.getTag());
-            }
+                }
         });
     }
 
