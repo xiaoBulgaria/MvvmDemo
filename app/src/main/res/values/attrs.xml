@@ -21,4 +21,10 @@
         <attr name="featuretag" format="reference|string"/>
         <attr name="deleteimage" format="reference"/>
     </declare-styleable>
+
+
+    <declare-styleable name="ImageViewbottomTextView">
+        <attr name="image_up" format="reference"/>
+        <attr name="text_bottom" format="reference|string"/>
+    </declare-styleable>
 </resources>
