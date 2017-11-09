@@ -24,7 +24,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.gene.mvvmdemo.MimageActivity">
 
-    <com.liangfeizc.avatarview.AvatarView
+    <com.gene.mvvmdemo.views.CircleView
         android:layout_width="160dp"
         android:layout_height="160dp"
         app:error="@{@drawable/error}"
