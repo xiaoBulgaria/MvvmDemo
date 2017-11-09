@@ -22,7 +22,6 @@ public class MimageActivity extends SwipeBackActivity {
 
     private com.gene.mvvmdemo.SwipeBackLayout mSwipeBackLayout;
 
-
     private ActivityMimageBinding binding;
 
     public View.OnClickListener avatarClickListener = new View.OnClickListener() {

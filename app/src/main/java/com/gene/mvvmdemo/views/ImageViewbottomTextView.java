@@ -6,7 +6,7 @@ import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.LayoutInflater;
 import android.view.View;
-import android.widget.FrameLayout;
+import android.widget.LinearLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -16,7 +16,7 @@ import com.gene.mvvmdemo.R;
  * Created by Android on 2017/5/16.
  */
 
-public class ImageViewbottomTextView extends FrameLayout {
+public class ImageViewbottomTextView extends LinearLayout {
     private CharSequence mBottomText;
     private Drawable mImageUp;
 
