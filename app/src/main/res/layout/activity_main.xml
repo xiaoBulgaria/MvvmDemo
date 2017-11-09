@@ -57,6 +57,19 @@
                 android:layout_height="match_parent"
                 android:text="22222"/>
 
+            <Button
+                android:id="@+id/btn_1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="touch me"/>
+
+
+            <Button
+                android:id="@+id/btn_2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="webview"/>
+
         </LinearLayout>
     </ScrollView>
 </layout>
